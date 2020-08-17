@@ -1,0 +1,47 @@
+body{
+    font-size: 16px;
+    font-family: 'Baloo Tamma 2', cursive;
+    color: #2d3436;
+}
+#header-nav{
+    background-color: #0984e3;
+    border-radius: 0;
+    border: 0;
+}
+.navbar-header #brand{
+    color: #dfe6e9;    
+    font-size: 1.9em;
+    letter-spacing: .02em;
+    margin-top: 5px;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+    border: 1px solid #dfe6e9;
+}
+.navbar-header button.navbar-toggle{
+    margin-top: 10px;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #e7e7e7;
+}
+#nav-list a{
+    color: #dfe6e9;
+    font-size: 1.1em;
+    margin: 0;
+}
+hr.divider{
+    border-color:#dfe6e9;
+    margin: 0;
+}
+#main-title{
+    font-size: 1.7em;
+    font-weight: bold;
+    margin: 0 0 20px;
+}
+.section{
+    background-color: #fab1a0;
+}
+.title{
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 10px 0 10px;
+}

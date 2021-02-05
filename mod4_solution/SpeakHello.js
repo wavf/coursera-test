@@ -1,4 +1,4 @@
-(function (window) {
+(function () {
   // STEP 2: Wrap the entire contents of SpeakHello.js inside of an IIFE
   // See Lecture 52, part 2
 
@@ -24,4 +24,4 @@
   
   window.helloSpeaker = helloSpeaker;
 
-})(window);
+})();

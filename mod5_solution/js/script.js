@@ -115,7 +115,7 @@ function buildAndShowHomeHTML(categories) {
       // Hint: you need to surround the chosen category short name with something before inserting
       // it into the home html snippet.
     
-      chosenCategoryShortName = '"' + chosenCategoryShortName + '"';
+      chosenCategoryShortName = "'" + chosenCategoryShortName + "'";
 
       var homeHtmlInsertRandomCategory = 
         insertProperty(homeHtml, "randomCategoryShortName", chosenCategoryShortName);
@@ -126,7 +126,7 @@ function buildAndShowHomeHTML(categories) {
       // of how to do that.
       // ....
 
-      insertHtml("#mainContent", homeHtmlInsertRandomCategory);
+      insertHtml("#main-content", homeHtmlInsertRandomCategory);
 
     },
     false); // False here because we are getting just regular HTML from the server, so no need to process JSON.
